@@ -1,0 +1,56 @@
+.btn-home {
+    background-color: rgb(0, 0, 0);
+    border-radius: 999999px;
+    border: none;
+    padding: 10px 20px  ;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.btn-test{
+    background-color: rgb(0, 0, 0);
+    border-radius: 999999px;
+    border: none;
+    padding: 10px 20px  ;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+} 
+.btn-testarossa{
+    background-color: rgb(0, 0, 0);
+    border-radius: 999999px;
+    border: none;
+    padding: 10px 20px  ;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+}
+.btn-home:hover {
+background-color: rgb(255, 0, 0);
+transition: background-color 1s ease-in;
+animation: changing-color 5s infinite;
+}
+
+@keyframes changing-color {
+    25% {
+        background-color: chartreuse;
+    }
+    50% {
+        background-color: blue;
+    }
+    80% {
+        background-color: chocolate;
+    }
+}
+S
+.btn-test:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    }
+
+    .btn-testarossa:hover {
+        background-color: rgb(255, 0, 0);
+        color: rgb(255, 255, 255);
+        }
+    
+    
